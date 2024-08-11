@@ -7,7 +7,7 @@ function Profile() {
     return (
         <div className="bg-white max-w-sm rounded-xl flex flex-col items-center p-5 gap-3">
             <div className="flex flex-col text-center gap-2">
-                <Image src={'/mypic.png'} height={200} width={200} className="rounded-xl" />
+                <Image src={'/mypic.png'} height={200} width={200} className="rounded-xl" alt="dave mariano" />
                 <h1 className="text-2xl font-bold">Dave Mariano</h1>
                 <div className="bg-slate-100 rounded-lg">
                     <p>Web Developer</p>
@@ -16,22 +16,22 @@ function Profile() {
                 <div className="flex gap-2 justify-center">
                     <div className="bg-slate-100 p-2 rounded-md ">
                         <a href="https://www.facebook.com/dave.mariano.589/" target="_blank">
-                            <Image src={'facebook.svg'} height={15} width={15} />
+                            <Image src={'facebook.svg'} height={15} width={15} alt="facebook" />
                         </a>
                     </div>
                     <div className="bg-slate-100 p-2 rounded-md ">
                         <a href="#">
-                            <Image src={'instagram.svg'} height={20} width={20} />
+                            <Image src={'instagram.svg'} height={20} width={20} alt="instagram" />
                         </a>
                     </div>
                     <div className="bg-slate-100 p-2 rounded-md ">
                         <a href="https://www.linkedin.com/in/mrdavepmariano/" target="_blank">
-                            <Image src={'linkedin-in.svg'} height={20} width={20} />
+                            <Image src={'linkedin-in.svg'} height={20} width={20} alt="linkedin" />
                         </a>
                     </div>
                     <div className="bg-slate-100 p-2 rounded-md ">
                         <a href="https://github.com/rhiaji" target="_blank">
-                            <Image src={'github.svg'} height={20} width={20} />
+                            <Image src={'github.svg'} height={20} width={20} alt="github" />
                         </a>
                     </div>
                 </div>
